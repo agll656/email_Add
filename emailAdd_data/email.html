@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="email.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<title>Document</title>
+</head>
+<body>
+	<h2>Add a User:</h2>
+	<form id="add-user">
+  		<input type="text" id="name" name="username" placeholder="name" />
+  		<input type="email" id="email" name="email" placeholder="email" />
+  		<button id="btn" onclick="submitForm();return false;">add user</button>
+  		<div id="errors" class="error-code"></div>
+	</form>
+
+	<h2>Users:
+	</h2>
+	<ul id="users">
+	</ul>
+
+	<script src= "email.js"></script>
+
+
+	
+</body>
+</html>
+
+
+
+
+
+
+
